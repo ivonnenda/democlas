@@ -1,0 +1,180 @@
+---
+title: "Quiz 1 - R basics"
+author: "Davood Roshan, id=11111111"
+output: html_document
+---
+
+# R Basic Programming Assignment
+
+**Instructions:** Change my name and id to yours in YAML above and complete the tasks below by inserting the required code in the R chunks provided under each task. Then knit the document to generate a html document with your solutions. You must **submit the knitted html file** on your canvas page. 
+
+> **Academic integrity:** By submitting this quiz, you confirm that the work is entirely your own and that you have followed all instructions.
+
+## Question 1 [Total: 20 Marks]
+
+- Using the `seq()` function, create a numeric vector called `x` containing the numbers from **5 to 50 in steps of 5**. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+- Extract all values in `x` that are **greater than 25**. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+- Calculate the **sum** of the values in `x`. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+- Calculate the **mean** of the values in `x` that are greater than 25. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+
+## Question 2 [Total: 20 Marks]
+
+The following vector contains the preferred transport method of eight students:
+
+`"Bus", "Car", "Walk", "Bus", "Bike", "Car", "Bus", "Bike"`
+
+- Create a character vector called `transport` containing these values. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+- Convert `transport` to a factor called `transport_factor`. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+- Display the **levels** of `transport_factor`. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+- Create a table showing the **number of students** using each transport method. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+
+## Question 3 [Total: 30 Marks]
+
+The following are the test scores of two students across four subjects:
+
+- Student A: `72, 85, 68, 90`
+- Student B: `65, 88, NA, 82`
+
+The subjects are `"Maths"`, `"Statistics"`, `"Finance"`, and `"Computing"`.
+
+- Create two vectors called `A` and `B` containing the scores above, and assign the corresponding **subject names** to the elements of both vectors. [10 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+- Extract Student A's score in `"Statistics"`. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+- Calculate the **average score of Student A in Maths, Statistics, and Computing**. [10 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+- Find the **highest score** obtained by Student B, ignoring the missing value. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+
+## Question 4 [Total: 30 Marks]
+
+The following data show information about six employees:
+
+| Name  | Department | Salary | Experience |
+|-------|------------|-------:|-----------:|
+| Anna  | Finance    | 42000  | 3 |
+| Ben   | IT         | 48000  | 5 |
+| Cara  | Finance    | 45000  | 4 |
+| David | IT         | NA     | 6 |
+| Emma  | Marketing  | 39000  | 2 |
+| Frank | Finance    | 51000  | 7 |
+
+- Create a data frame called `employees` containing the data above. [10 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+- Display only the `Name` and `Salary` columns. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+- Calculate the **mean salary**, ignoring the missing value. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+- Subset the data frame to display only employees with **more than 4 years of experience**. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
+
+- Extract the **salary of Cara** from the data frame. [5 Marks]
+
+```{r}
+# write your code here
+
+
+```
